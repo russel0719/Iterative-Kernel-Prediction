@@ -9,6 +9,10 @@ This research aims to address the drawback of IKC, which involves lengthy infere
 ## Proposed Model
 The proposed model combines the modules of IKC while optimizing the iteration process to minimize inference time. By integrating the iterative kernel correction and reducing the number of iterations required, we aim to achieve efficient and effective super-resolution with accurate blur kernel estimation.
 
+## Dataset Preparation
+We use [DIV2K](https://data.vision.ee.ethz.ch/cvl/DIV2K/), [Flickr2K](http://cv.snu.ac.kr/research/EDSR/Flickr2K.tar), [Set5](https://uofi.box.com/shared/static/kfahv87nfe8ax910l85dksyl2q212voc.zip), [Set14](https://uofi.box.com/shared/static/igsnfieh4lz68l926l8xbklwsnnk8we9.zip), [Urban100](https://uofi.box.com/shared/static/65upg43jjd0a4cwsiqgl6o6ixube6klm.zip), [BSD100](https://uofi.box.com/shared/static/qgctsplb8txrksm9to9x01zfa4m61ngq.zip) datasets. 
+To train a model on the full dataset(DIV2K+Flickr2K, totally 3450 images), download datasets from official websites. The DIV2K and Flickr2K datasets are divided and placed in /data/train and /data/valid folders, while Set5, Set14, Urban100, and BSD100 are placed in /data/test folder.
+
 ## Results
 We anticipate that the proposed model will significantly reduce inference time while maintaining or improving the accuracy of blur kernel estimation and super-resolution performance. Experimental results and comparisons will be presented in the final research report.
 
